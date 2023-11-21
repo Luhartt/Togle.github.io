@@ -42,6 +42,7 @@
 
 .Umak{
     margin:0;
+    margin-left: 10px;
     font-family: 'Holtwood One SC', serif;
     color: white;
     font-size: 30px;
@@ -151,7 +152,8 @@ body{
     width: 130px;
     text-decoration: none;
     line-height: 35px;
-    font-family: 'Kanit'
+    font-family: 'Kanit';
+    font-weight: bolder;
 }
 
 .viewm{
@@ -161,13 +163,69 @@ body{
     
 }
 
-.content{
+.content1{
 
     justify-content: center;
     display: inline-block;
     padding: 30px;
+    font-family: 'DM Sans';
+    font-weight: normal;
+    text-align: center;
+    line-height: 18px;
 
 }
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-4in);
+    margin-bottom: -3.5in;
+}
+
+.content1 h1{
+
+    font-weight: bold;
+    line-height: 2px;
+}
+
+
+.content a{
+    margin-top: 10px;
+    transform: translateX(-70px);
+}
+
+.footer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #00093A;
+    color: white;
+    font-family:'DM Sans';
+    line-height: 19px;
+}
+
+.info{
+
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: -15px;
+    display: block;
+}
+
+.univinfo h1{
+
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.contact{
+    display: block;
+}
+
+
+
 
 
 

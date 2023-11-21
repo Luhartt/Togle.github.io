@@ -1,0 +1,176 @@
+.header{
+
+    background-color: rgba(13, 7, 81, 0.72);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: absolute;   
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2; 
+    
+
+}
+
+.nav{
+    display: flex;
+    color: white;
+
+}
+
+.hero{
+
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    z-index: 1;
+}
+
+.audience{
+    width: 100%;
+    height: 100%; 
+}
+
+.nav a {
+    padding: 0px 40px;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-wrap: nowrap;    
+}
+
+.Umak{
+    margin:0;
+    font-family: 'Holtwood One SC', serif;
+    color: white;
+    font-size: 30px;
+    text-wrap: nowrap;
+
+}
+
+.topcontent {
+    position:absolute;
+    top: 50%; 
+    left: 50%; 
+    z-index: 3; 
+    width: 50%;
+    
+}
+
+.heading{
+
+    display: flex;
+    float: left;
+    color: white;
+    text-align: left;
+
+    
+}
+
+.GenAss{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    position: relative;
+   
+
+}
+
+.audience{
+
+    display: block;
+    position: absolute;
+    max-width: 450px;
+    height: auto;
+    
+
+}
+
+.rightcon{
+
+   justify-content: center;
+   align-items: center;;
+}
+
+body{
+
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tebol{
+
+    transform: translateY(-4in);
+}
+.tebol th{
+    text-align: center;
+    padding: 80px;
+}
+    
+
+.CCIS{
+
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 35px;
+    line-height: 60px;
+    text-align: left;
+    text-wrap:nowrap;
+}
+
+.GenAss{
+    margin: -30px 10px 10px 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-wrap: nowrap;
+    
+}
+
+.GeneralAssembly{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: -30px 60px;
+    
+}
+
+.viewmore{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    background-color: #3A7C55;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    font-family: 'Kanit'
+}
+
+.viewm{
+    transform: translateX(-2.3in);
+    flex-shrink: 0;
+    margin-top: 2.4in;
+    
+}
+
+.content{
+
+    justify-content: center;
+    display: inline-block;
+    padding: 30px;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');

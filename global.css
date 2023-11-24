@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
 
     background-color: rgba(13, 7, 81, 0.72);
     width: 100%;
     height: 70px;
-    display: flex;
-    position: absolute;   
+    display: flex;  
     justify-content: space-between;
     align-items: center;
     z-index: 2; 
@@ -17,20 +24,6 @@
     color: white;
 
 }
-
-.hero{
-
-    width: 100%;
-    height: 100%;
-    filter: blur(3px);
-    z-index: 1;
-}
-
-.audience{
-    width: 100%;
-    height: 100%; 
-}
-
 .nav a {
     padding: 0px 40px;
     margin-right: 15px;
@@ -50,94 +43,22 @@
 
 }
 
-.topcontent {
-    position:absolute;
-    top: 50%; 
-    left: 50%; 
-    z-index: 3; 
-    width: 50%;
-    
-}
-
-.heading{
-
-    display: flex;
-    float: left;
-    color: white;
-    text-align: left;
-
-    
-}
-
-.GenAss{
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    z-index: 1;
-    color: white;
-    display: flex;
-    position: relative;
-   
-
-}
-
-.audience{
-
-    display: block;
-    position: absolute;
-    max-width: 450px;
-    height: auto;
-    
-
-}
-
-.rightcon{
-
-   justify-content: center;
-   align-items: center;;
-}
-
-body{
-
-    margin:0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.tebol{
-
-    transform: translateY(-4in);
-}
-.tebol th{
-    text-align: center;
-    padding: 80px;
-}
-    
-
 .CCIS{
-
+    display: flex;
     color: white;
     font-family: 'Press Start 2P';
-    font-size: 35px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 80px;
     text-align: left;
-    text-wrap:nowrap;
-}
-
-.GenAss{
-    margin: -30px 10px 10px 10px;
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    align-items: center;
     text-wrap: nowrap;
-    
+    margin-right: 130px;;
 }
 
-.GeneralAssembly{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: -30px 60px;
+.hero{
+    background: url(images/faculty1.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
     
 }
 
@@ -153,35 +74,87 @@ body{
     text-decoration: none;
     line-height: 35px;
     font-family: 'Kanit';
-    font-weight: bolder;
+    text-align: center;
+}
+
+.audience{
+
+    display: block;
+    max-width: 450px;
+    height: auto;
+    align-self: center;
+    order: 1;
+    
+
+}
+
+.GenAss{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    order:2;
+    align-self: center;
+    position: relative;
+    
+    
+   
+
+}
+
+.herocontent{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.GeneralAssembly{
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: auto;
+    align-content: center;
 }
 
 .viewm{
-    transform: translateX(-2.3in);
-    flex-shrink: 0;
-    margin-top: 2.4in;
-    
+
+    display: flex;
+    order: -1px;;
+    justify-content: center;
+    transform: translateY(-20px);
+    position: relative;
+}
+
+.herocontent{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    margin-top: 80px;
+    height: 400px
 }
 
 .content1{
 
-    justify-content: center;
-    display: inline-block;
-    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     font-family: 'DM Sans';
     font-weight: normal;
     text-align: center;
     line-height: 18px;
+    
 
-}
-
-
-
-.content{
-    display: flex;
-    justify-content: center;
-    transform: translateY(-4in);
-    margin-bottom: -3.5in;
 }
 
 .content1 h1{
@@ -197,39 +170,52 @@ body{
 }
 
 .footer {
+    margin-top: 50px;
     display: flex;
     height: 220px;
     background-color: #00093A;
     color: white;
     font-family: 'DM Sans';
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 20px;
-
     position: relative;
+    line-height: 20px;
+    
 }
 
-.contact h1, .univinfo h1{
-    font-size: 20px
-}
-.logo{   
-    width: 20%;
-    padding-top: 20px;
-    padding-left: 20px;
+.footer a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
 }
 
-hr {
-    border: 1px solid white;
-    position: absolute;
-    bottom: -390px;
+.footer p{
+
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 13px;
+
+}
+
+.footer h1{
+    font-weight: lighter;
+}
+
+.logo{
+
+    margin-top: 60px;
+}
+
+.line{
+
+    height: 1px;
     width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 90%;
+    left: 0
+    
 }
 
-
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
